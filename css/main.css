@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lexend',
+    sans-serif;
+    margin: 0;
+    background-color: #d2d2d2;
+}
+img {
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #37383d;
+}
+ul {
+    padding: 0;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.nav {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul {
+    list-style-type: none;
+    gap: 2.5em;
+}
+.nav a {
+    font-weight: 500;
+    font-size: 16px;
+}
+.navigation {
+    flex-grow: 1;
+    align-items: center;
+}
+.primary-list {
+    margin: 0 auto;
+}
+.secondary-list {
+    margin-left: 0;
+}
+.nav-btn, .btn {
+    background-color: #56B762;
+    color: #ffffff;
+    border-radius: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.nav-btn {
+    padding: 0.5em 1em
+}
+.navigation a:hover {
+    opacity: 0.7;
+}
+.hero-body {
+    position: relative;
+    padding: 0 2.5em;
+    overflow: hidden;
+}
+.hero-body>* {
+    flex-basis: 100%;
+}
+.hero-body ul{
+    padding-left: 1em;
+    font-weight: 400;
+    font-size: 18px;
+}
+h1{
+    font-weight:700;
+    font-size: 64px;
+    color: #37383d;
+}
+p{
+    font-weight:400;
+    font-size: 18px;
+    color: #7b7b7b;
+}
+span {
+    color: #7b7b7b;
+    font-size: 15px;
+}
+.inputs {
+    gap: 2.5em;
+    background-color: #ffffff;
+    padding: 21px;
+    align-items: center;
+    z-index: 3;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+.inputs div {
+    align-items: center;
+    gap: 0.5em;
+    flex-basis: 100%;
+}
+input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+}
+input:placeholder-shown, i {
+    font-weight: 400;
+    font-size: 22px;
+    color: #7b7b7b;
+}
